@@ -17,6 +17,7 @@ Perfect for beginners learning backend development or anyone needing a lightweig
 
 ## 📁 Project Structure
 
+```plaintext
 API-basic-project-about-travebook/
 │
 ├── main.py               # Main Flask application
@@ -25,7 +26,7 @@ API-basic-project-about-travebook/
 ├── instance/
 │   └── travel.db         # Auto-generated SQLite database
 └── API_env/              # Virtual environment (if using venv)
-
+```
 
 ---
 
@@ -47,15 +48,15 @@ cd API-basic-project-about-travebook
 ### 2. (Optional but recommended) Create a virtual environment
 
 #### macOS / Linux:
-
+```bash
 python3 -m venv API_env
 source API_env/bin/activate
-
+```
 #### Window:
-
+``` bash
 python -m venv API_env
 .\API_env\Scripts\activate
-
+```
 #### Run the API :
 
 python main.py
