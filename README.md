@@ -58,5 +58,6 @@ python -m venv API_env
 .\API_env\Scripts\activate
 ```
 #### Run the API :
-
+``` bash
 python main.py
+```
